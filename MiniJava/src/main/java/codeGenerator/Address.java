@@ -17,7 +17,7 @@ public class Address {
 
     public Address(int num, varType varType) {
         this.num = num;
-        this.typeAddress = new DirectAddress();
+        this.typeAddress = new DirectAccess();
         this.varType = varType;
     }
 
