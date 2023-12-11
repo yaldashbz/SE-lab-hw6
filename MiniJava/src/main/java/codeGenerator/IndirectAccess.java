@@ -1,6 +1,6 @@
 package codeGenerator;
 
-public class IndirectAccess extends TypeAddress {
+public class IndirectAccess implements TypeAddress {
 
 
     public String toString(int num){
